@@ -1,4 +1,6 @@
 # StartUp
 
 A draft for learning web Programming
-now I am make change after pull
+now I am making changes after pull
+
+I made this change from the repository side.
