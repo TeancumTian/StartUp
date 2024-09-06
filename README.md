@@ -1,6 +1,5 @@
 # StartUp
 
 A draft for learning web Programming
-now I am making changes after pull
-
-I made this change from the repository side. (this is the final merge)
+## Notes
+For more details on what I learned, check out my [notes.md](./notes.md).
