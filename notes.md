@@ -16,7 +16,7 @@ git log
 `➜  ssh -i [key pair file] ubuntu@[ip address]`
 [Guide](https://learn.cs260.click/page/webServers/amazonWebServicesEc2/amazonWebServicesEc2_md)
 
-###Executing commands notes
+### Executing commands notes
 
 - **echo** - Output the parameters of the command
 - **cd** - Change directory
