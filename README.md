@@ -49,7 +49,7 @@ I am going to use the required technologies in the following ways.
   - retrieving review data
   - submitting new reviews
 - **DB/Login** - Store users, people's reviews in database. Register and login users. Credentials securely stored in database. Can't review a product unless authenticated.
-- **WebSocket** - As each review got liked, their likes are broadcast to all other users.
+- **WebSocket** - As each review got liked, the like count will be updated in real time.
 
 ## HTML deliverable
 
