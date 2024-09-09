@@ -55,8 +55,6 @@ I am going to use the required technologies in the following ways.
 
 ➡️ The following is an example of the required information for the `Startup HTML` deliverable
 
-For this deliverable I built out the structure of my application using HTML.
-
 - [ ] **HTML pages** - Three HTML page that represent the ability to login and display reviews and write reviews.
 - [ ] **Links** - The login page automatically links to the Home page(home page contains product review products). The Home page has a link to the write review page.
 - [ ] **Text** - The login page has a login form. The Home page has a list of products with reviews. The write review page has a form to write a review.
@@ -68,65 +66,55 @@ For this deliverable I built out the structure of my application using HTML.
 
 ➡️ The following is an example of the required information for the `Startup CSS` deliverable
 
-For this deliverable I properly styled the application into its final appearance.
-
 - [ ] **Header, footer, and main content body**
 - [ ] **Navigation elements** -
-- [ ] **Responsive to window resizing** - My app looks great on all window sizes and devices
-- [ ] **Application elements** - Used good contrast and whitespace
-- [ ] **Application text content** - Consistent fonts
+- [ ] **Responsive to window resizing** -
+- [ ] **Application elements** -
+- [ ] **Application text content** -
 - [ ] **Application images** -
 
 ## React deliverable
 
 ➡️ The following is an example of the required information for the `Startup React` deliverable
 
-For this deliverable I used JavaScript and React so that the application completely works for a single user. I also added placeholders for future technology.
-
-- [ ] **Bundled and transpiled** - done!
-- [ ] **Components** - Login, voting list, vote are all components with mocks for login, WebSocket.
-  - [ ] **login** - When you press enter or the login button it takes you to the voting page.
-  - [ ] **database** - Displayed the voting counts. Currently this is stored and retrieved from local storage, but it will be replaced with the database data later.
-  - [ ] **WebSocket** - I used the setInterval function to periodically increase a random vote count. This will be replaced with WebSocket messages later.
-  - [ ] **application logic** - The highlight and ranking number change based up the user's selections.
-- [ ] **Router** - Routing between login and voting components.
-- [ ] **Hooks** - Vue uses class properties instead of `UseState` to track changes in vote state.
+- [ ] **Bundled and transpiled** -
+- [ ] **Components** -
+  - [ ] **login** -
+  - [ ] **database** -
+  - [ ] **WebSocket** -
+  - [ ] **application logic** -
+- [ ] **Router** -
+- [ ] **Hooks** -
 
 ## Service deliverable
 
 ➡️ The following is an example of the required information for the `Startup Service` deliverable
 
-For this deliverable I added backend endpoints that receives votes and returns the voting totals.
-
-- [ ] **Node.js/Express HTTP service** - done!
-- [ ] **Static middleware for frontend** - done!
-- [ ] **Calls to third party endpoints** - I didn't have time to implement this. 😔
-- [ ] **Backend service endpoints** - Placeholders for login that stores the current user on the server. Endpoints for voting.
-- [ ] **Frontend calls service endpoints** - I did this using the fetch function.
+- [ ] **Node.js/Express HTTP service** -
+- [ ] **Static middleware for frontend** -
+- [ ] **Calls to third party endpoints** -
+- [ ] **Backend service endpoints** -
+- [ ] **Frontend calls service endpoints** -
 
 ## DB/Login deliverable
 
 ➡️ The following is an example of the required information for the `Startup DB/Login` deliverable
 
-For this deliverable I associate the votes with the logged in user. I stored the votes in the database.
-
-- [ ] **MongoDB Atlas database created** - done!
-- [ ] **Stores data in MongoDB** - done!
-- [ ] **User registration** - Creates a new account in the database.
-- [ ] **existing user** - Stores the votes under the same user if the user already exists.
-- [ ] **Use MongoDB to store credentials** - Stores both user and their votes.
-- [ ] **Restricts functionality** - You cannot vote until you have logged in. This is restricted on the frontend only. 😔
+- [ ] **MongoDB Atlas database created** -
+- [ ] **Stores data in MongoDB** -
+- [ ] **User registration** -
+- [ ] **existing user** -
+- [ ] **Use MongoDB to store credentials** -
+- [ ] **Restricts functionality** -
 
 ## WebSocket deliverable
 
 ➡️ The following is an example of the required information for the `Startup WebSocket` deliverable
 
-For this deliverable I used webSocket to update the votes on the frontend in realtime.
-
-- [ ] **Backend listens for WebSocket connection** - done!
-- [ ] **Frontend makes WebSocket connection** - done!
-- [ ] **Data sent over WebSocket connection** - done!
-- [ ] **WebSocket data displayed** - All user votes display in realtime. I'm really proud that this is working. Way cool!
+- [ ] **Backend listens for WebSocket connection** -
+- [ ] **Frontend makes WebSocket connection** -
+- [ ] **Data sent over WebSocket connection** -
+- [ ] **WebSocket data displayed** -
 
 ## Notes
 
