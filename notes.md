@@ -44,3 +44,9 @@ git log
 - **tracert** - Trace the connections to a website
 - **dig** - Show the DNS information for a domain
 - **man** - Look up a command in the manual
+
+### DNS through Route 53
+
+purchase domain
+create hosted zone
+create record set(A,\*)
