@@ -55,12 +55,12 @@ I am going to use the required technologies in the following ways.
 
 ➡️ The following is an example of the required information for the `Startup HTML` deliverable
 
-- [ ] **HTML pages** - Three HTML page that represent the ability to login and display reviews and write reviews.
-- [ ] **Links** - The login page automatically links to the Home page(home page contains product review products). The Home page has a link to the write review page.
-- [ ] **Text** - The login page has a login form. The Home page has a list of products with reviews. The write review page has a form to write a review.
-- [ ] **Images** - Images will be added for represent the products.
-- [ ] **DB/Login** - Input box and submit button for login. The voting choices represent data pulled from the database.
-- [ ] **WebSocket** -
+- [x] **HTML pages** - Lots of HTML page that represent the ability to login and display reviews and write reviews.
+- [x] **Links** - The login page automatically links to the Home page(home page contains product review products). The Home page has a link to the write review page.
+- [x] **Text** - The login page has a login form. The Home page has a list of products with reviews. The write review page has a form to write a review.
+- [x] **Images** - Images will be added for represent the products.
+- [x] **DB/Login** - Input box and submit button for login. Review form for write review page.
+- [x] **WebSocket** - The review count will be updated in real time. People will receive notification when a new comments or like is added to his post.
 
 ## CSS deliverable
 
