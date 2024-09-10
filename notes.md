@@ -50,3 +50,5 @@ git log
 purchase domain
 create hosted zone
 create record set(A,\*)
+
+### HTTPS, TLS, and web certificates(Caddy)
