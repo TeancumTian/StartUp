@@ -8,7 +8,7 @@ At BestNow, we understand the frustration of spending countless hours searching 
 
 ### Design
 
-![Mock](bestnow.png)
+![Mock](images/bestnow.png)
 
 Here is a sequence diagram that shows how to people would interact with the backend to vote.
 
