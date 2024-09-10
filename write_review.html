@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Write a Product Review</title>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="display_reviews.html">Display Product Reviews</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="write_review.html">Write a Review</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+    <h1>Write a Product Review</h1>
+    <form
+      action="/submit_review"
+      method="post"
+    >
+      <div>
+        <label for="product-name">Product Name:</label>
+        <input
+          type="text"
+          id="product-name"
+          name="product-name"
+          required
+        />
+      </div>
+      <div>
+        <label for="reviewer-name">Your Name:</label>
+        <input
+          type="text"
+          id="reviewer-name"
+          name="reviewer-name"
+          required
+        />
+      </div>
+      <div>
+        <label for="rating">Rating:</label>
+        <select
+          id="rating"
+          name="rating"
+          required
+        >
+          <option value="1">1 - Very Poor</option>
+          <option value="2">2 - Poor</option>
+          <option value="3">3 - Average</option>
+          <option value="4">4 - Good</option>
+          <option value="5">5 - Excellent</option>
+        </select>
+      </div>
+      <div>
+        <label for="review">Review:</label>
+        <textarea
+          id="review"
+          name="review"
+          rows="4"
+          required
+        ></textarea>
+      </div>
+      <div>
+        <button type="submit">Submit Review</button>
+      </div>
+    </form>
+  </body>
+</html>
