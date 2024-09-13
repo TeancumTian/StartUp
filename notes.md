@@ -104,3 +104,45 @@ create record set(A,\*)
 <audio controls src="testAudio.mp3"></audio>
 <h2>Video</h2>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/RAOztw7qYk8?si=Krf7Fzsc9TTDbLwP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+### CSS
+
+```
+body {
+  font-family: sans-serif;
+}
+
+h1 {
+  border-bottom: thin black solid;
+}
+
+section {
+  background: #eeeeee;
+  padding: 0.25em;
+  margin-bottom: 0.5em;
+  border-left: solid 1em #eeeeee;
+}
+
+/* h2 descendent of section */
+section h2 {
+  color: #0044EE;
+}
+
+/* Sibling of h2 */
+h2 ~ p {
+  padding-left: 0.5em;
+}
+
+
+/* paragraph with summary class */
+p.summary {
+  font-weight: bold;
+}
+
+/** on section mouse hover */
+section:hover {
+  border-left: solid 1em purple;
+}
+
+
+```
